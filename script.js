@@ -61,5 +61,11 @@ function clearHistory() {
   renderHistory();
 }
 
+function deleteLast() {
+  const display = document.getElementById('display');
+  display.value = display.value.slice(0, -1);
+
+}
+
 // Ielādē vēsturi, kad lapa tiek atvērta
 renderHistory();

@@ -6,11 +6,11 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #351414;
   }
   
   .calculator {
-    background: #fff;
+    background: #041c2b;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -24,8 +24,9 @@ body {
     margin-bottom: 10px;
     text-align: right;
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #cab2b2;
     border-radius: 5px;
+    color:#040608;
   }
   
   .buttons {
@@ -39,7 +40,7 @@ body {
     font-size: 1.2rem;
     border: none;
     border-radius: 5px;
-    background: #007bff;
+    background: #05090e;
     color: white;
     cursor: pointer;
   }
@@ -52,10 +53,11 @@ body {
     margin-top: 20px;
     width: 100%;
     max-width: 400px;
-    background: #fff;
+    background: #041c2b;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
   }
   
   .history h2 {
